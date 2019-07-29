@@ -10,14 +10,7 @@ namespace Ite
     {
         static void Main(string[] args)
         {
-            ITeacher itech = (Teacher)ObjectFactory.OFat();
-            Person person1= (Teacher)ObjectFactory.OFat();
-            itech.Teach();
-            Console.WriteLine(itech.WriteSomething());
-            Console.WriteLine("-------------------------------------------------------------------------");
-            person1.Say();
-            person1.Walk();
-            Console.ReadLine();
+            Refle.test();
         }
     }
 }

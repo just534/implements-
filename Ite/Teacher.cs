@@ -34,10 +34,13 @@ namespace Ite
         {
             Console.WriteLine($"你好，我是老师{Name}正在执行接口方法Teach");
         }
-
+        private string test()
+        {
+            return "NNNNNNNNNNNNN";
+        }
         public string WriteSomething()
         {
-            return $"你好，我是老师{Name}正在执行接口方法WriteSomething";
+            return $"你好，我是老师{Name},今年{Age}岁，正在执行接口方法WriteSomething"+ test();
         }
     }
 }
